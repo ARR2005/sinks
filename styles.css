@@ -1,12 +1,46 @@
 /* Outdated CSS */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: "Monospace", sans-serif;
+    font-size: large;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+
+}
+#Main-Text{
+      background-color: #cccccc;
+      text-align: center; 
+      padding: 0px; 
+      width: 100px;
+      height: 100px;
+}
+
+#Navbar{
+    display: flex;
+    width: 20%;
+    background-color: #333333; 
+    color: white; 
+    align-content: center;
+    padding: 10px; 
+    width: auto;
+    height: 30%;
+
+    
+}
+
+#navbar_container{
+    list-style-type: none; 
     padding: 0;
+}
+
+#navbar_container a::target-text{
+    background-color: aquamarine;
 }
 
 h1 {
     margin: 0;
+    font-family:"Protest Guerrilla", sans-serif;
 }
 
 ul {
@@ -25,7 +59,7 @@ p {
 }
 
 img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -33,3 +67,6 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
+
+  
