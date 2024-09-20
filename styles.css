@@ -1,7 +1,7 @@
 /* Outdated CSS */
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 body {
-    background-color: #8db19f;
+    background-color: rgb(221, 221, 221);
     font-family: "Monospace", sans-serif;
     font-size: large;
 
@@ -10,11 +10,18 @@ body {
 
 }
 
+
 header{
-    background-color: #739986;
+    display: flex;
     text-align: left;
+    flex-direction: column;
+
+    background-image: repeating-linear-gradient(45deg, #00dcff91, transparent 1000px);
+
     padding: 0px;
     margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 header h1{
@@ -43,8 +50,9 @@ header p{
 }
 
 .Navbar_container{
-    margin: 6px;
-    border: 3px;
+    padding: 10px;
+    background-image: repeating-linear-gradient(45deg, #00dcff91, transparent 1000px);
+    color: black;
 }
 
 #Nav_actions{
@@ -61,12 +69,12 @@ header p{
     margin-right: 20%;
 }
 #Nav_actions a:link, a:visited{
-    color: azure;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
 }
 #Nav_actions a:hover{
-    
+    background-color: grey ;
 }
 
 .Image_Container{
@@ -78,7 +86,18 @@ header p{
 }
 
 #Card{
-    
+    display: flex;
+    border-radius: 5px;
+    background-color: #30ffcb09 ;
+    box-shadow: 0px 0px 4px 3px #8f8f8f7a;
+    padding: 5px;
+    margin: 10px;
+}
+
+#Card #Card_text_Container{
+    margin: 4px;
+    margin-top: 5%;
+    margin-left: 2%;
 }
 
 #Card img{
@@ -89,14 +108,27 @@ header p{
     overflow: clip;
 }
 
-#Card h2{
+.Underlined h2{
+    text-decoration: underline;
+    font-size: 40px;
 
-
+    margin-block-start: 3px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
 }
 
-#Card p{
+.Underlined p{
+    font-size: 20px;
+    padding: 20px;
 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
 
 
 
