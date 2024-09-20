@@ -1,72 +1,63 @@
 /* Outdated CSS */
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 body {
+    background-color: #8db19f;
     font-family: "Monospace", sans-serif;
     font-size: large;
-    margin-left: 0px;
-    margin-right: 0px;
+
+    margin: 0px;
     padding: 0px;
 
 }
-#Main-Text{
-      background-color: #cccccc;
-      text-align: center; 
-      padding: 0px; 
-      width: 100px;
-      height: 100px;
+
+header{
+    background-color: #739986;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
 }
 
-#Navbar{
-    display: flex;
-    width: 20%;
-    background-color: #333333; 
-    color: white; 
-    align-content: center;
-    padding: 10px; 
-    width: auto;
-    height: 30%;
+header h1{
+    display: block;
+    font-family:Protest Guerrilla;
+    font-size: 4em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+header p{
+    display: block;
+    margin-inline-start: 50px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-style: italic;
+    unicode-bidi: isolate;
+}
+
+#Nav_actions{
+    display: flex;
+    list-style-type: none;
+    margin: 2px;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+#Nav_actions a:link, a:visited{
+    color: azure;
+    text-decoration: none;
+
+}
+#Nav_actions a:hover{
     
 }
 
-#navbar_container{
-    list-style-type: none; 
-    padding: 0;
-}
-
-#navbar_container a::target-text{
-    background-color: aquamarine;
-}
-
-h1 {
-    margin: 0;
-    font-family:"Protest Guerrilla", sans-serif;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    width: auto;
-    height: auto;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
 
-  
+
+
