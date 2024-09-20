@@ -21,6 +21,7 @@ header h1{
     display: block;
     font-family:Protest Guerrilla;
     font-size: 4em;
+
     margin-inline-start: 50px;
     margin-inline-end: 0px;
     margin-block-start: 0em;
@@ -32,21 +33,32 @@ header h1{
 
 header p{
     display: block;
+
     margin-inline-start: 50px;
     margin-block-start: 0em;
     margin-block-end: 0em;
+
     font-style: italic;
     unicode-bidi: isolate;
 }
 
+.Navbar_container{
+    margin: 6px;
+    border: 3px;
+}
+
 #Nav_actions{
+    font-weight: bolder;
     display: flex;
     list-style-type: none;
-    margin: 2px;
-    align-items: flex-start;
-    text-align: center;
+    margin: 5px;
+    align-items: center;
+    text-align: justify;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #Nav_actions a:link, a:visited{
     color: azure;
@@ -57,6 +69,34 @@ header p{
     
 }
 
+.Image_Container{
+    border: 20px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+#Card{
+    
+}
+
+#Card img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#Card h2{
+
+
+}
+
+#Card p{
+
+}
 
 
 
