@@ -8,23 +8,34 @@
 </head>
 
 <body>
+    <!-- Header 
+    -consist of navbar to be at the side of the text
+    -need smoother Ui and Ux
+    -improper ui when minimized
+    -navbar menu colliding
+        -->
     <header>
-        <h1>Sinks R Us</h1>
-        <p>Your one-stop shop for all types of sinks</p>
+        <div id="Title_container">
+            <h1>Sinks R Us</h1>
+            <p>Your one-stop shop for all types of sinks</p>
+        </div>
+        <nav class="Navigation_container">
+            <ul id="Nav_actions">
+                <li><a class="Home" href="#">Home</a></li>
+                <li><a Class="About" href="#">About Us</a></li>
+                <li><a Class="Types" href="#">Types of Sinks</a></li>
+                <li><a Class="Features" href="#">Features</a></li>
+                <li><a Class="Contact" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-
-
-    <nav class="Navbar_container">
-        <ul id="Nav_actions">
-            <li><a class="Home" href="#">Home</a></li>
-            <li><a Class="About" href="#">About Us</a></li>
-            <li><a Class="Types" href="#">Types of Sinks</a></li>
-            <li><a Class="Features" href="#">Features</a></li>
-            <li><a Class="Contact" href="#">Contact Us</a></li>
-        </ul>
-    </nav>
     
     <section class="Image_Container">
+        <!-- About
+        -improper resizing
+        -text colliding
+        -proper wrapping for mobile base
+        -->
         <div id="Card">
             <div class="Underlined" id="Card_text_Container" >
                 <h2>About Our Sinks</h2>
@@ -32,6 +43,12 @@
             </div>
             <img src="images/sink1.jpg" alt="Sink Image">
         </div>
+
+        <!-- Types of Sinks
+        -improper resizing
+        -text colliding
+        -proper wrapping for mobile base
+        -->
         <div class="Underlined" id="Card">
             <img src="images/sink2.jpg" alt="Sink Image">
             <div id="Card_text_Container">
@@ -40,6 +57,12 @@
             </div>
             
         </div>
+        
+        <!-- Features and Benefits
+        -improper resizing
+        -text colliding
+        -proper wrapping for mobile base
+        -->
         <div id="Card">
             <div class="Underlined" id="Card_text_Container">
                 <h2>Features and Benefits</h2>
@@ -47,6 +70,7 @@
             </div>
             <img src="images/sink3.jpeg" alt="Sink Features">
         </div>
+
     </section>
 </body>
 </html>

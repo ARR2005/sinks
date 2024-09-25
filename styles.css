@@ -1,72 +1,82 @@
-/* Outdated CSS */
+/* Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+/* Color Pallete Used
+F5F5F5 body
+48CFCB Color 
+229799 Action Color
+424242 Additional Color*/
+
+/* Desktop Mode*/
 body {
-    background-color: rgb(221, 221, 221);
+    background-color: #F5F5F5;
     font-family: "Monospace", sans-serif;
     font-size: large;
 
     margin: 0px;
     padding: 0px;
-
 }
 
-
+/* HEADERS*/
 header{
     display: flex;
     text-align: left;
-    flex-direction: column;
-
-    background-image: repeating-linear-gradient(45deg, #00dcff91, transparent 1000px);
-
+    flex-direction: row;
+    background-image: linear-gradient(180deg, #229799, Transparent);
     padding: 0px;
     margin: 0px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
-header h1{
+#Title_container{
     display: block;
-    font-family:Protest Guerrilla;
-    font-size: 4em;
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+    height: 20%;
+}
 
-    margin-inline-start: 50px;
+header h1{
+    font-family: Protest Guerrilla;
+    font-size: 4em;
+    font-weight: bold;
+    display: block;
+    margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-
-    font-weight: bold;
-    unicode-bidi: isolate;
 }
 
 header p{
     display: block;
-
-    margin-inline-start: 50px;
+    margin-inline-start: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-
     font-style: italic;
-    unicode-bidi: isolate;
 }
 
-.Navbar_container{
+/* Navigations */
+.Navigation_container{
+    height: 50%;
+    width: 50%;
     padding: 10px;
-    background-image: repeating-linear-gradient(45deg, #00dcff91, transparent 1000px);
     color: black;
 }
 
 #Nav_actions{
-    font-weight: bolder;
     display: flex;
-    list-style-type: none;
-    margin: 5px;
-    align-items: center;
     text-align: justify;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-
-    margin-left: 20%;
-    margin-right: 20%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bolder;
+    list-style-type: none;
+    margin: auto;
+    padding-top: 80px;
+    padding-inline-start: 0px;
 }
 #Nav_actions a:link, a:visited{
     color: rgb(0, 0, 0);
@@ -77,6 +87,7 @@ header p{
     background-color: grey ;
 }
 
+/* Website Contents*/
 .Image_Container{
     border: 20px;
     margin-inline-start: 50px;
@@ -108,6 +119,9 @@ header p{
     overflow: clip;
 }
 
+
+/* Item Attribs */
+
 .Underlined h2{
     text-decoration: underline;
     font-size: 40px;
@@ -128,6 +142,10 @@ header p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+/* Mobile Mode
+    forced width for mobile if lessen better ui */
+
 
 
 
