@@ -1,42 +1,32 @@
 /* Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 
-/* Color Pallete Used
-F5F5F5 body
-48CFCB Color 
-229799 Action Color
-424242 Additional Color*/
 
 /* Desktop Mode*/
 body {
-    background-color: #F5F5F5;
+    background-image: linear-gradient(180deg, rgba(167, 255, 254, 0.37), Transparent);
     font-family: "Monospace", sans-serif;
     font-size: large;
 
     margin: 0px;
     padding: 0px;
 }
-
 header{
+    background-image: linear-gradient(180deg, #48CFCB, Transparent);
     display: flex;
     text-align: left;
-    background-image: linear-gradient(180deg, #48CFCB, Transparent);
     padding: 10px 20px;
     margin: 0px;
     flex-direction: row;
     justify-content: space-between;
 }
-
 h1{
     margin: 30px 0px 0px 0px;
 }
-
-
 #logo p{
     margin: 0%;
     font-weight: bold;
 }
-
 #NavContainer{
     margin: 0px 0px 0px 0px;
     height: auto;
@@ -58,6 +48,40 @@ h1{
     color: rgb(0, 0, 0);
     text-decoration: none
 }
+#Contents{
+    padding: 0px 20px
+}
+#Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px #888888;
+    background: #F5F5F5;
+}
+#TextContainer{
+    margin: 2px;
+    max-width: 50%;
+    min-width: 400px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+img{
+    width: 400px;
+    overflow: clip;
+    height: auto;
+    overflow-clip-margin: content-box;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.Shadow{
+    text-shadow: -5px 1px 0px #bebebe;
+}
+
 
 @media (max-width:1000px){
     body {
@@ -126,76 +150,17 @@ h1{
         padding: 1%;
         flex-direction: column;
     }
-}
 
-
-
-
-/*
-.Image_Container{
-    border: 20px;
-    margin-inline-start: 50px;
-    margin-inline-end: 50px;
-    margin-top: 25px;
-    margin-bottom: 100px;
-.Image_Container {
-    margin: -10% 2% 0% 2%;
-}
-
-#Card{
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 5px;
-    background-color: #30ffcb09;
-    box-shadow: 0px 0px 4px 3px #8f8f8f7a;
-    padding: 5px;
-    margin: 10px;
-}
-#Card:nth-child(2){
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    background-color: #30ffcb09 ;
-    background-color: #30ffcb09;
-    box-shadow: 0px 0px 4px 3px #8f8f8f7a;
-    padding: 5px;
-    margin: 10px;
-}
-
-#Card img{
-    width: 50%;
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    border-radius: 10px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-.Underlined h2{
-    margin-inline-end: 0px;
-}
-*/
-
-/* Mobile Resolution */
-
-    /*
+    #Card:nth-child(2){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: -3px 3px 10px #888888;
+        background: #F5F5F5;
+        align-content: center;
     }
-    #Card #Card_text_Container {
-        margin: 0% 2% 0% 0%;
-    }
-    .Underlined h2{
-        text-decoration: underline;
-        font-size: 40px;
-        margin-block-start: 3px;
-        margin-block-end: 0px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: 500;
-    }
-    .Underlined p{
-        font-size: 20px;
-        padding:1%;
-        margin: 0%;
-    }
-    */
+}
